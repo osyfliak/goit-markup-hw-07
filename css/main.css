@@ -379,7 +379,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 10px;
-  padding: 0 auto;
   min-width: 200px;
   min-height: 50px;
   border-radius: 4px;
@@ -920,7 +919,7 @@ img {
   outline: transparent;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1, 1666;
+  line-height: 1.1666;
   letter-spacing: 0.01em;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
