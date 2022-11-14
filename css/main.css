@@ -352,19 +352,6 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.button-subscribe {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-}
-
 .form__icon {
   position: absolute;
   z-index: 50;
@@ -379,15 +366,6 @@ img {
   text-decoration: none;
   font-family: var(--minor-font-family);
   line-height: 1.2;
-}
-
-.header__logo {
-  color: #000000;
-}
-
-.footer__logo {
-  color: #ffffff;
-  text-decoration: none;
 }
 
 .button {
@@ -657,6 +635,10 @@ img {
   border-bottom: 1px solid #ECECEC;
 }
 
+.header__logo {
+  color: #000000;
+}
+
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -835,6 +817,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer__logo {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-addres__link {
